@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sabina Chaulagain</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello!</h1>
-  <p>My GitHub Pages site is working 🎉</p>
+  <header>
+    <button id="menu-btn" aria-label="Toggle menu">☰</button>
+    <a class="brand" href="#/">Sabina Chaulagain</a>
+  </header>
+
+  <nav id="drawer">
+    <p class="drawer-title">Contents</p>
+    <ul id="tree"></ul>
+  </nav>
+
+  <main id="content"></main>
+
+  <script src="app.js"></script>
 </body>
 </html>
